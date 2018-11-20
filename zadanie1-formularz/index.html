@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Formularz</title>
+</head>
+
+<body>
+
+
+    <form action="https://formspree.io/p_sokolik1@wp.pl.com" method="POST">
+        <label for="name">Imię:</label><br>
+        <input type="text" name="name" id="name"><br>
+
+        <label for="lastname">Nazwisko:</label><br>
+        <input type="text" name="lastname" id="lastname"><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" name="_replyto" id="email"><br>
+
+        <label for="phone">Telefon:</label><br>
+        <input type="tel" name="phone" id="phone"><br>
+
+        <label for="city">Wybierz miasto:</label><br>
+        <select name="city" id="city">
+            <option value="krakow">Kraków</option>
+            <option value="warszawa">Warszawa</option>
+            <option value="gdansk">Gdańsk</option><br>
+        </select><br>
+
+        <p>Płeć:</p>
+        <input type="radio" name="gender" value="male" id="male">
+        <label for="male">Mężczyzna</label><br>
+        <input type="radio" name="gender" value="female" id="female">
+        <label for="female">Kobieta</label><br><br>
+
+
+        <input type="checkbox" id="agreement" name="agreement">
+        <label for="agreement">Wyrażam zgodę na przetwarzanie danych osobowych</label><br><br>
+
+        <label for="message">Wiadomość:</label><br>
+        <textarea name="message" id="message" cols="30" rows="10"></textarea><br>
+
+        <label for=""></label>
+        <input type="submit" value="Send">
+    </form>
+
+
+
+</body>
+
+</html>
