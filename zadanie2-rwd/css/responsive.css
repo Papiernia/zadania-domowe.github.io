@@ -31,9 +31,9 @@
 	div.titles {
         color: white; 
         position: relative;
-        text-align: right;
+        text-align: left;
         padding-top: 5%;
-        padding-right: 3%;
+        padding-left: 55%;
            
 	}
 }
