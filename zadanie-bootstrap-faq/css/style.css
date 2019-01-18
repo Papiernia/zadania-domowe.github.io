@@ -1,5 +1,18 @@
-div.container {color: grey};
+.container {color: grey};
 
 
-.btn-link {color:red};
+.conatiner-main {
+    padding: 10%;
+
+}
+
+
+.btn-link {
+    color: red;
+}
+
+
+.btn:hover {
+    color: rgb(133, 55, 206);
+}
 
